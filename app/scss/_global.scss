@@ -1,0 +1,47 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  color: #000;
+  font-family: 'Comfortaa', cursive;
+  // font-family: 'Yeseva One', serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+}
+button {
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 0;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+a {
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main {
+  flex: 1 0 auto;
+  overflow-x: clip;
+}
+.footer {
+  flex: 0 0 auto;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
