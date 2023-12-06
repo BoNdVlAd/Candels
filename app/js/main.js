@@ -41,6 +41,10 @@ const swiperTwo = new Swiper('.certificates__slider', {
     clickable: true,
   },
   breakpoints: {
+    200: {
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
     400: {
       slidesPerView: 1,
       spaceBetween: 10,

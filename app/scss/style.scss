@@ -936,6 +936,10 @@ header {
 }
 
 @media (max-width: 640px) {
+  .certificates__slider {
+    margin: 0 auto;
+    width: 90%;
+  }
   .container {
     padding-left: 10px;
     padding-right: 10px;
@@ -1006,6 +1010,12 @@ header {
   }
   .team__content {
     justify-content: start;
+  }
+  .certificates__slider {
+    width: 90%;
+  }
+  .swiper-slide img {
+    margin: 0 auto;
   }
 }
 
@@ -1085,6 +1095,7 @@ header {
   }
   .certificates__slider {
     margin: 0 auto;
+    width: 90%;
   }
   .promo__link {
     font-size: 8px;
@@ -1105,6 +1116,9 @@ header {
   }
 }
 @media (max-width: 440px) {
+  .certificates__slider {
+    width: 90%;
+  }
   .goods__item-text {
     padding: 0px 10px;
   }
@@ -1166,6 +1180,9 @@ header {
   }
 }
 @media (max-width: 390px) {
+  .certificates__slider {
+    width: 90%;
+  }
   .top__img-l {
     width: 148px;
   }
