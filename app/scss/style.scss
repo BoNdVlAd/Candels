@@ -1105,6 +1105,9 @@ header {
   }
 }
 @media (max-width: 440px) {
+  .goods__item-text {
+    padding: 0px 10px;
+  }
   .steps__list {
     gap: 25px 15px;
   }
@@ -1216,6 +1219,7 @@ header {
     font-size: 10px;
   }
   .goods__item-text {
+    padding: 0px;
     font-size: 6px;
   }
   .section__descr {
