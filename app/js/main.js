@@ -63,3 +63,49 @@ const swiperTwo = new Swiper('.certificates__slider', {
     },
   },
 });
+
+document.querySelectorAll('.menu__list-item').forEach((element) => {
+  element.addEventListener('click', (e) => {
+    e.preventDefault();
+    console.log('There was a click');
+    console.log(element.dataset.id);
+    switch (element.dataset.id) {
+      case '1':
+        document
+          .querySelector('.about')
+          .scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
+        break;
+      case '2':
+        document
+          .querySelector('.goods')
+          .scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
+        break;
+      case '3':
+        document
+          .querySelector('.team')
+          .scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
+        break;
+      case '4':
+        document
+          .querySelector('.feedback')
+          .scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
+        break;
+      case '5':
+        document
+          .querySelector('.courses')
+          .scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
+        break;
+      case '6':
+        document;
+        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+        break;
+
+      default:
+        break;
+    }
+  });
+});
+
+document
+  .querySelectorAll('.goods')
+  .scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'nearest' });

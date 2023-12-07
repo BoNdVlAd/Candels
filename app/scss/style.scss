@@ -138,7 +138,6 @@ header {
   background-color: #a5978e;
   padding: 50px 0 60px;
   color: #fafafa;
-  margin-bottom: 150px;
 }
 .about__inner {
   display: flex;
@@ -217,7 +216,9 @@ header {
     padding-left: 0px;
   }
 }
-
+.goods {
+  padding-top: 150px;
+}
 .goods__content {
   gap: 50px 90px;
 }
@@ -699,7 +700,7 @@ header {
   .steps__title {
     font-size: 15px;
   }
-  .goods__tile {
+  .goods__title {
     font-size: 15px;
   }
   .steps__inner {
@@ -936,6 +937,9 @@ header {
 }
 
 @media (max-width: 640px) {
+  .goods {
+    padding-top: 50px;
+  }
   .certificates__slider {
     margin: 0 auto;
     width: 90%;
